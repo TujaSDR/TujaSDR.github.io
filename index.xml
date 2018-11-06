@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TujaSDR.com on TujaSDR</title>
+    <title>TujaSDR</title>
     <link>http://tujasdr.com/</link>
-    <description>Recent content in TujaSDR.com on TujaSDR</description>
+    <description>Recent content on TujaSDR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 06 Nov 2018 12:00:00 +0100</lastBuildDate>
     
 	<atom:link href="http://tujasdr.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>http://tujasdr.com/about/</link>
+      <pubDate>Tue, 06 Nov 2018 12:00:00 +0100</pubDate>
+      
+      <guid>http://tujasdr.com/about/</guid>
+      <description>Coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://tujasdr.com/contact/</link>
+      <pubDate>Tue, 06 Nov 2018 12:00:00 +0100</pubDate>
+      
+      <guid>http://tujasdr.com/contact/</guid>
+      <description>Coming soon!</description>
+    </item>
     
   </channel>
 </rss>
