@@ -12,12 +12,22 @@
     
     
     <item>
+      <title>TujaSDR specifications draft</title>
+      <link>http://tujasdr.com/post/specs/</link>
+      <pubDate>Sun, 25 Nov 2018 12:00:00 +0100</pubDate>
+      
+      <guid>http://tujasdr.com/post/specs/</guid>
+      <description>We are working hard on finishing the first prototype boards! Here are the initial specifications. Some values are still subject to change.
+ TujaSDR specifications draft (pdf)  </description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>http://tujasdr.com/about/</link>
       <pubDate>Tue, 06 Nov 2018 12:00:00 +0100</pubDate>
       
       <guid>http://tujasdr.com/about/</guid>
-      <description>Coming soon!</description>
+      <description>Tuja is an FPGA based software defined radio (SDR) transceiver characterised by a high dynamic range in receive mode and clean spectrum emissions in transmit. It is very different from other low or medium priced SDRs that often suffer from poor dynamic range and spurious emissions. Tuja has been optimized for narrow band communications and works great for weak signal modes like SSB, CW and low speed digital modes such as WSPR, FT-8 and PSK31.</description>
     </item>
     
     <item>
@@ -26,7 +36,8 @@
       <pubDate>Tue, 06 Nov 2018 12:00:00 +0100</pubDate>
       
       <guid>http://tujasdr.com/contact/</guid>
-      <description>Coming soon!</description>
+      <description>For general discussion please use the Google Group. Annoncements will be made on this website and on the group.
+ TujaSDR Google group (http) tujasdr@googlegroups.com (mail)  </description>
     </item>
     
   </channel>

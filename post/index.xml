@@ -11,5 +11,15 @@
 	<atom:link href="http://tujasdr.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>TujaSDR specifications draft</title>
+      <link>http://tujasdr.com/post/specs/</link>
+      <pubDate>Sun, 25 Nov 2018 12:00:00 +0100</pubDate>
+      
+      <guid>http://tujasdr.com/post/specs/</guid>
+      <description>We are working hard on finishing the first prototype boards! Here are the initial specifications. Some values are still subject to change.
+ TujaSDR specifications draft (pdf)  </description>
+    </item>
+    
   </channel>
 </rss>
