@@ -6,7 +6,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2018-12-04T13:19:43 CET">
+<meta name="revised" content="2018-12-05T16:23:07 CET">
 <title>TujaSDR :: TujaSDR</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -137,11 +137,12 @@
     <dd>Less than 1 ppm from onboard TCXO</dd>
 </dl>
 
-<p>Prepared for easy integration with external transverters for 144 MHz etc.</p>
+<p>Prepared for easy integration with external transverters for 144 MHz etc.
+<br></p>
 
 <h4 id="receiver">Receiver</h4>
 
-<dl>
+<p><dl>
     <dt><strong>Architecture</strong></dt>
     <dd>Superheterodyne</dd>
     <dt><strong>Intermediate Frequencies (IF)</strong></dt>
@@ -159,10 +160,11 @@
     <dt><strong>Mirror frequency rejection</strong></dt>
     <dd>TBD dB</dd>
 </dl>
+<br></p>
 
 <h4 id="transmitter">Transmitter</h4>
 
-<dl>
+<p><dl>
     <dt><strong>Noise emissions, close to carrier, typical</strong></dt>
     <dd>TBD dBc/Hz @ 10 kHz offset, TBD dBc/Hz @ 100 kHz offset</dd>
     <dt><strong>Spuriouses, non-harmonics</strong></dt>
@@ -174,6 +176,7 @@
     <dt><strong>Output power</strong></dt>
     <dd>TBD dBm / TBD mW</dd>
 </dl>
+<br></p>
 
 <h4 id="software">Software</h4>
 
@@ -181,7 +184,7 @@
 
 <p>Works with standard SDR software such as <a href="http://gqrx.dk/">GQRX</a> and <a href="http://www.sm5bsz.com/linuxdsp/linrad.htm">Linrad</a>. Possible to use <a href="https://physics.princeton.edu/pulsar/k1jt/wsjtx.html">WSJT-X</a> and <a href="http://www.w1hkj.com/">Fldigi</a> through ALSA loopback device.</p>
 
-<dl>
+<p><dl>
     <dt><strong>Website</strong></dt>
     <dd><a href="https://www.tujasdr.com">https://www.tujasdr.com</a></dd>
     <dt><strong>Google groups</strong></dt>
@@ -189,10 +192,11 @@
     <dt><strong>Google groups email</strong></dt>
     <dd><a href="mailto:tujasdr@googlegroups.com">tujasdr@googlegroups.com</a></dd>
 </dl>
+<br></p>
 
 <h3 id="tuja-board">Tuja board</h3>
 
-<dl>
+<p><dl>
   <dt><strong>FPGA</strong></dt>
   <dd>Cyclone 10LP</dd>
   <dt><strong>Buses</strong></dt>
@@ -210,17 +214,30 @@
   <dt><strong>Aux</strong></dt>
   <dd>PTT and CW-KEY inputs.</dd>
 </dl>
+<br></p>
 
 <h3 id="raspberry-pi">Raspberry Pi</h3>
 
-<p>Access to GPIO, Ethernet, USB and HDMI. Tuja uses SPI, I2C and I2S in 40-pin header. Ethernet and USB exposed at short edge of the Eurocard.</p>
+<p>Access to GPIO, Ethernet, USB and HDMI. Tuja uses SPI, I2C and I2S in 40-pin header. Ethernet and USB exposed at short edge of the Eurocard.
+<br></p>
 
 <h3 id="mechanical">Mechanical</h3>
 
-<dl>
+<p><dl>
     <dt><strong>Tuja board size</strong></dt>
     <dd>100x160 mm (Eurocard format)</dd>
 </dl>
+<br></p>
+
+<h3 id="block-diagrams">Block Diagrams</h3>
+
+<p>Overall blocks:</p>
+
+<p><img src="images/block-schematic.png?classes=border,shadow" alt="Block Diagram" /></p>
+
+<p>Details of analog radio circuits:</p>
+
+<p><img src="images/block-schematic-rf.png?classes=border,shadow" alt="Block Diagram, RF circuits" /></p>
 
 
 
