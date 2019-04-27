@@ -16,10 +16,12 @@
   
   <url>
     <loc>https://tujasdr.com/_footer/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tujasdr.com/_header/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
